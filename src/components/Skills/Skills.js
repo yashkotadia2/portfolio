@@ -7,6 +7,9 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { skillsData } from '../../data/skillsData'
 import { skillsImage } from '../../utils/skillsImage'
 
+import Fade from 'react-reveal/Fade';
+
+
 function Skills() {
 
     const { theme } = useContext(ThemeContext);
@@ -32,14 +35,17 @@ function Skills() {
                         play={true} 
                         direction="left"
                     > */}
-                        {skillsData.map((skill, id) => (
-                            <div className="skill--box" key={id} style={skillBoxStyle}>
-                                <img src={skillsImage(skill)} alt={skill} />
-                                <h3 style={{color: theme.tertiary}}>
-                                    {skill}
-                                </h3>
-                            </div>
-                        ))}
+                        <Fade bottom>
+                            {skillsData.map((skill, id) => (
+                                <div className="skill--box" key={id} style={skillBoxStyle}>
+                                    <img src={skillsImage(skill)} alt={skill} />
+                                    <h3 style={{color: theme.tertiary}}>
+                                        {skill}
+                                    </h3>
+                                </div>
+                            ))}
+                        </Fade>
+
                     {/* </Marquee> */}
                 </div>
             </div>
