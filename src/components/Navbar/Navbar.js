@@ -25,12 +25,10 @@ function Navbar() {
 
     const handleDrawerOpen = () => {
         setOpen(true);
-        // setHandleDrawer('kk');
     };
 
     const handleDrawerClose = () => {
         setOpen(false);
-        // setHandleDrawer('aa');
     };
 
     const handleDarkMode = () => {
