@@ -169,7 +169,8 @@
     left: 50%;
     top: 30%;
     border: 8px solid #eaeaea;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%), border 5s ease;
+    transition: border 1s ease;
   }
   .landing--container-left {
     flex: initial;
