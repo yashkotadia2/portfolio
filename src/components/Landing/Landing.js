@@ -147,7 +147,7 @@ function Landing() {
                     alt=''
                     className='landing--img'
                     style={{
-                        opacity: `${drawerOpen ? '0' : '1'}`,
+                        // opacity: `${drawerOpen ? '0' : '1'}`,
                         borderColor: theme.secondary,
                     }}
                 />
