@@ -1,17 +1,88 @@
  export const skillsData = [
-    'React',
-    'node',
-    'Bootstrap',
-    'socket',
-    'redux',
-    'HTML',
-    'CSS',
-    'Javascript',
-    'Git',
-    'MongoDB',
-    'ec2',
-    'Firebase',
-    'Wordpress'
+    {
+        title: 'React',
+        level: 80,
+    },
+    {
+        title: 'Node',
+        level: 60,
+    },
+    {
+        title: 'Bootstrap',
+        level: 70,
+    },
+    {
+        title: 'Socket',
+        level: 70,
+    },
+    {
+        title: 'React Query',
+        level: 85,
+    },
+    {
+        title: 'Redux',
+        level: 80,
+    },
+    {
+        title: 'React Router',
+        level: 80,
+    },
+    {
+        title: 'HTML',
+        level: 90,
+    },
+    {
+        title: 'CSS',
+        level: 95,
+    },
+    {
+        title: 'Javascript',
+        level: 95,
+    },
+    {
+        title: 'Git',
+        level: 80,
+    },
+    {
+        title: 'MongoDB',
+        level: 75,
+    },
+    {
+        title: 'Firebase',
+        level: 65,
+    },
+    {
+        title: 'EC2',
+        level: 60,
+    },
+    {
+        title: 'Wordpress',
+        level: 80,
+    },
+    {
+        title: 'Scss',
+        level: 95,
+    },
+    {
+        title: 'Tailwind',
+        level: 50,
+    },
+    {
+        title: 'Typescript',
+        level: 50,
+    },
+    {
+        title: 'Framer Motion',
+        level: 80,
+    },
+    {
+        title: 'AG-Grid',
+        level: 75,
+    },
+    {
+        title: 'Ant Design',
+        level: 85,
+    }
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

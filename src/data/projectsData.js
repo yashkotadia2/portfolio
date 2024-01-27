@@ -7,16 +7,18 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
+import crm from '../assets/svg/projects/crm.svg'
+
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
+        projectName: 'Enterprise Resource Planning',
+        projectDesc: 'OEMUP is a cutting-edge Enterprise Resource Planning (ERP) software designed to revolutionize the way businesses operate and manage their processes.',
+        tags: ['React', 'SASS', 'AG-Grid'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
+        image: crm
     },
     {
         id: 2,
