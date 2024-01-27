@@ -7,7 +7,9 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
-import crm from '../assets/svg/projects/crm.svg'
+import chat from '../assets/svg/projects/chat.svg'
+import erp from '../assets/svg/projects/erp.svg'
+import jewelry from '../assets/svg/projects/jewelry.svg'
 
 
 export const projectsData = [
@@ -16,27 +18,27 @@ export const projectsData = [
         projectName: 'Enterprise Resource Planning',
         projectDesc: 'OEMUP is a cutting-edge Enterprise Resource Planning (ERP) software designed to revolutionize the way businesses operate and manage their processes.',
         tags: ['React', 'SASS', 'AG-Grid'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: crm
+        code: '',
+        demo: 'http://3.108.89.223/register',
+        image: erp
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
+        projectName: 'Chat App with Socket.io',
+        projectDesc: 'React Chat App powered by Socket.io, combines the dynamic capabilities of React.js and the real-time communication prowess of Socket.io to deliver a seamless and engaging chat application.',
+        tags: ['React', 'Socket.io'],
+        code: '',
+        demo: 'https://client-61ti.onrender.com/register',
+        image: chat
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
+        projectName: 'Jewelry Website Template',
+        projectDesc: 'This Jewelry Website Template aims to provide an elegant and user-friendly UI for showcasing exquisite jewelry collections. It features a clean design with smooth transitions and interactive elements, ensuring a seamless user experience.',
+        tags: ['HTML', 'CSS', 'Vanilla JS'],
+        code: '',
+        demo: 'https://jewelsbyneha.netlify.app/',
+        image: jewelry
     },
     {
         id: 4,

@@ -12,6 +12,8 @@ import SingleProject from "./SingleProject/SingleProject";
 function Projects() {
   const { theme } = useContext(ThemeContext);
 
+  console.log("THEME", theme);
+
   const useStyles = makeStyles(() => ({
     viewAllBtn: {
       color: theme.tertiary,

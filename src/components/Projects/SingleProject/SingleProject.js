@@ -69,7 +69,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 aria-label='Demo'
                             />
                         </a>
-                        <a
+                        { code != '' && (<a
                             href={code}
                             target='_blank'
                             rel='noreferrer'
@@ -87,7 +87,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 className={classes.icon}
                                 aria-label='Code'
                             />
-                        </a>
+                        </a>)}
                     </div>
                 </div>
                 <p
