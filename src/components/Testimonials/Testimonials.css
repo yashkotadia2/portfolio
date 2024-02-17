@@ -55,7 +55,7 @@
 
 }
 
-.testimonials--body .quote{
+.testimonials--body .quote-card{
     font-size: 4rem;
     position: absolute;
     z-index: 10;
@@ -147,12 +147,14 @@
 
     box-sizing: border-box;
     padding: 30px 40px;
-    padding-top: 60px;
+    /* padding-top: 60px; */
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
 .review--content p{
@@ -185,7 +187,7 @@
     margin-top: 1.75rem;
   }
 
-  .testimonials--body .quote{
+  .testimonials--body .quote-card{
       font-size: 3.5rem;
   }
 
@@ -241,7 +243,7 @@
   .testimonials--header h1{
     font-size: 2.2rem;
   }
-  .testimonials--body .quote{
+  .testimonials--body .quote-card{
       font-size: 3rem;
   }
   .testimonials--slider {
@@ -257,4 +259,12 @@
   .review--content{
       min-height: 350px;
   }
+}
+
+
+.quote-card{
+    position: absolute !important;
+    top: 10%;
+    left: 15%;
+    z-index: 10 !important;
 }

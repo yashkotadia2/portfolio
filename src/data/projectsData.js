@@ -1,25 +1,18 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
-
 import chat from '../assets/svg/projects/chat.svg'
 import erp from '../assets/svg/projects/erp.svg'
 import jewelry from '../assets/svg/projects/jewelry.svg'
-
+import security from '../assets/svg/projects/security.svg'
+import quotes from '../assets/svg/projects/quotes.svg'
+import exam from '../assets/svg/projects/exam.svg'
 
 export const projectsData = [
     {
         id: 1,
         projectName: 'Enterprise Resource Planning',
         projectDesc: 'OEMUP is a cutting-edge Enterprise Resource Planning (ERP) software designed to revolutionize the way businesses operate and manage their processes.',
-        tags: ['React', 'SASS', 'AG-Grid'],
+        tags: ['React', 'SASS', 'AG-Grid', 'Antd'],
         code: '',
-        demo: 'http://3.108.89.223/register',
+        demo: 'https://aeroda.in/register',
         image: erp
     },
     {
@@ -33,6 +26,15 @@ export const projectsData = [
     },
     {
         id: 3,
+        projectName: 'Security Website with Animations',
+        projectDesc: 'RSF Guards is a security website that leverages the power of React.js and Framer Motion to deliver a visually appealing and interactive user interface. It features smooth animations and transitions, ensuring a delightful user experience.',
+        tags: ['React', 'Framer Motion', 'React-Icons'],
+        code: '',
+        demo: 'https://rsfguards.ca/',
+        image: security
+    },
+    {
+        id: 4,
         projectName: 'Jewelry Website Template',
         projectDesc: 'This Jewelry Website Template aims to provide an elegant and user-friendly UI for showcasing exquisite jewelry collections. It features a clean design with smooth transitions and interactive elements, ensuring a seamless user experience.',
         tags: ['HTML', 'CSS', 'Vanilla JS'],
@@ -41,49 +43,22 @@ export const projectsData = [
         image: jewelry
     },
     {
-        id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
-    },
-    {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
+        projectName: 'Random Quotes App',
+        projectDesc: ' A simple app that fetches random quotes from an API and displays them with a beautiful animation.',
+        tags: ['React', 'Animations', 'APIs'],
+        code: '',
+        demo: 'https://mindful-quote.netlify.app/',
+        image: quotes
     },
     {
         id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: six
-    },
-    {
-        id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: seven
-    },
-    {
-        id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: eight
+        projectName: 'Exam Material Access',
+        projectDesc: 'A web application that allows students to access exam materials and resources. It features a user-friendly interface and seamless navigation, ensuring a delightful user experience.',
+        tags: ['React', 'Firebase', 'Authentication', 'Timer', 'Quiz'],
+        code: '',
+        demo: 'https://rsf-training.netlify.app/',
+        image: exam
     },
 ]
 
