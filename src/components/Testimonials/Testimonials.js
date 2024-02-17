@@ -24,7 +24,7 @@ function Testimonials() {
         autoplay: true,
         margin: 3,
         loop: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         draggable: true,
         swipeToSlide: true,
         swipe: true,
@@ -64,7 +64,7 @@ function Testimonials() {
                                         key={test.id}
                                     >
                                         <div className='testimonials--container'>
-                                            <div
+                                            {/* <div
                                                 className='review--img'
                                                 style={{
                                                     backgroundColor:
@@ -75,7 +75,7 @@ function Testimonials() {
                                                     src={test.image}
                                                     alt={test.name}
                                                 />
-                                            </div>
+                                            </div> */}
                                             <div
                                                 className='review--content'
                                                 style={{

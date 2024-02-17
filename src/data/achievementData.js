@@ -1,29 +1,32 @@
+import react from "../assets/svg/achievements/react.svg";
+import ec2 from "../assets/svg/achievements/ec2.svg";
+import htmlCssJs from "../assets/svg/achievements/htmlCssJs.png";
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "With a passion for crafting engaging digital experiences and a keen eye for detail, I am a dedicated Frontend Developer with a track record of delivering innovative solutions, I thrive in collaborative environments where creativity and problem-solving converge",
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'React - The Complete Guide',
+            details : 'React, React Router, Redux, and other related topics. From the very basics to advanced topics like HOC, Context API, and React Hooks.',
+            date : 'Aug 21, 2020',
+            field : 'Web Development',
+            image : react
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Complete Front-End Web Dev And Design HTML, CSS, JS',
+            details : 'Comprehensive course that teachs you the fundamentals of front-end web dev and design using HTML, CSS, and JS',
+            date : 'June 25, 2020',
+            field : 'Web Development',
+            image : htmlCssJs
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'AWS Cloud Practitioner',
+            details : 'Knowledge-based certification for foundational understanding of AWS Cloud.',
+            date : 'Dec 8, 2022',
+            field : 'Cloud Computing',
+            image : ec2
         }
 
     ]

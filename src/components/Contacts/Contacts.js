@@ -26,6 +26,8 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { socialsData } from '../../data/socialsData';
 import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
+import emailjs from "emailjs-com";
+
 
 function Contacts() {
     const [open, setOpen] = useState(false);
@@ -140,16 +142,36 @@ function Contacts() {
                     message: message,
                 };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
-                    setSuccess(true);
+                emailjs
+                .sendForm(
+                  "service_e3gqjxb",
+                  "template_26yi2v6",
+                  "fpWwcdwl-pu7Nou0p"
+                )
+                .then(
+                  (result) => {
+                 setSuccess(true);
                     setErrMsg('');
 
                     setName('');
                     setEmail('');
                     setMessage('');
-                    setOpen(false);
-                });
+                    setOpen(false);                  
+            },
+                  (error) => {
+                    console.log("Error", error.text);
+                  }
+                );
+                // axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                //     console.log('success');
+                //     setSuccess(true);
+                //     setErrMsg('');
+
+                //     setName('');
+                //     setEmail('');
+                //     setMessage('');
+                //     setOpen(false);
+                // });
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);
@@ -170,7 +192,7 @@ function Contacts() {
                 <h1 style={{ color: theme.primary }}>Contacts</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
-                        <form onSubmit={handleContactForm}>
+                        <form id="contact-form" onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
                                     Name
