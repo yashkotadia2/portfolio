@@ -1,5 +1,5 @@
 import resume from '../assets/pdf/YashKotadia_Resume.pdf'
-import profilePic from '../../src/assets/profile/YashKotadia_Profile.jpg'
+import profilePic from '../../src/assets/profile/YashKotadia_ProfilePicture.jpg'
 
 export const headerData = {
     name: 'Yash Kotadia',

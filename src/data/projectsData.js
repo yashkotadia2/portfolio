@@ -19,9 +19,9 @@ export const projectsData = [
         id: 2,
         projectName: 'Chat App with Socket.io',
         projectDesc: 'React Chat App powered by Socket.io, combines the dynamic capabilities of React.js and the real-time communication prowess of Socket.io to deliver a seamless and engaging chat application.',
-        tags: ['React', 'Socket.io'],
+        tags: ['React', 'Socket.io', 'Node.js', 'Express.js', 'MongoDB'],
         code: '',
-        demo: 'https://client-61ti.onrender.com/register',
+        demo: 'https://simple-chat-mern.netlify.app/signup',
         image: chat
     },
     {
