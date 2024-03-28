@@ -78,12 +78,14 @@ import canva from "../assets/svg/skills/canva.svg";
 import socket from "../assets/svg/skills/socketio.svg";
 import redux from "../assets/svg/skills/redux.svg";
 import ec2 from "../assets/svg/skills/ec2.svg";
-import scss from "../assets/svg/skills/scss.svg";
+import sass from "../assets/svg/skills/sass.svg";
 import framerMotion from "../assets/svg/skills/framer-motion.svg";
 import reactRouter from "../assets/svg/skills/react-router.svg";
 import agGrid from "../assets/svg/skills/ag-grid.png";
 import antd from "../assets/svg/skills/ant-design.svg";
 import reactQuery from "../assets/svg/skills/react-query.svg";
+import zustand from "../assets/svg/skills/zustand.png";
+import kubernetes from "../assets/svg/skills/kubernetes.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -244,8 +246,8 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case "canva":
       return canva;
-    case "scss":
-      return scss;
+    case "sass":
+      return sass;
     case "framer motion":
       return framerMotion;
     case "react router":
@@ -254,8 +256,16 @@ export const skillsImage = (skill) => {
       return agGrid;
     case "ant design":
       return antd;
+    case "zustand":
+      return zustand;
     case "react query":
       return reactQuery;
+    case "docker":
+      return docker;
+    case "kubernetes":
+      return kubernetes;
+    case "nextjs":
+      return nextJS;
     default:
       break;
   }

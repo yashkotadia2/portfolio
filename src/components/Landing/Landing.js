@@ -167,7 +167,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='YashKotadia_Resume'
+                                    download='YashKotadia_FullStack_Resume'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/YashKotadia_Resume.pdf'
+import resume from '../assets/pdf/YashKotadia-FullStack-Resume.pdf'
 import profilePic from '../../src/assets/profile/YashKotadia_ProfilePicture.jpg'
 
 export const headerData = {
