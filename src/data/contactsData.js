@@ -1,7 +1,6 @@
 export const contactsData = {
-    email: 'yashkotadia2@gmail.com',
-    phone: '+1 647-848-4273',
-    address: 'East York, M4B 2G5 ON',
-
-    sheetAPI: ''
-}
+  email: "yashkotadia2@gmail.com",
+  phone: "+91 997-997-2183",
+  address: "Ahmedabad, Gujarat, India",
+  sheetAPI: "",
+};

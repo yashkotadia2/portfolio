@@ -21,7 +21,7 @@ function Testimonials() {
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     margin: 3,
     loop: true,
     autoplaySpeed: 5000,
@@ -56,23 +56,18 @@ function Testimonials() {
               <Slider {...settings} ref={sliderRef}>
                 {testimonialsData.map((test) => (
                   <div className="single--testimony" key={test.id}>
-                    <FaQuoteLeft
-                      className="quote-card"
-                      style={{ color: theme.tertiary50 }}
-                    />
                     <div className="testimonials--container">
+                      <div className="quote-card">
+                        <FaQuoteLeft style={{ color: theme.tertiary50 }} />
+                      </div>
                       {/* <div
-                                                className='review--img'
-                                                style={{
-                                                    backgroundColor:
-                                                        theme.secondary,
-                                                }}
-                                            >
-                                                <img
-                                                    src={test.image}
-                                                    alt={test.name}
-                                                />
-                                            </div> */}
+                        className="review--img"
+                        style={{
+                          backgroundColor: theme.secondary,
+                        }}
+                      >
+                        <img src={test.image} alt={test.name} />
+                      </div> */}
                       <div
                         className="review--content"
                         style={{
